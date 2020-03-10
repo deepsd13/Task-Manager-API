@@ -12,4 +12,5 @@ app.use(taskRouter)
 
 app.listen(port, () => {
     console.log('Server is up on ' + port)
+    console.log(process.env.SENDGRID_API_KEY)
 })
